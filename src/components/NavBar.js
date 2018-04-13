@@ -15,7 +15,10 @@ class NavBar extends Component {
       <div style={{backgroundColor: '#666'}}>
         <Menu pointing secondary>
           <Link to='/'>
-            <Menu.Item name='home' />
+            <Menu.Item name='By Cities' />
+          </Link>
+          <Link to='/chars'>
+            <Menu.Item name='By Characters' />
           </Link>
           { this.rightNavs() }
         </Menu>
